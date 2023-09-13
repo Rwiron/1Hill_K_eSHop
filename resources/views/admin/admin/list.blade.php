@@ -6,5 +6,4 @@
 @endsection
 
 @section('script')
-<script src="{{ url('public/assets/dist/js/pages/dashboard3.js') }}"></script>
 @endsection

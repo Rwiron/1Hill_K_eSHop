@@ -20,7 +20,6 @@ Route::get('admin', function () {
 });
 
 
-
 Route::get('admin/dashboard', function () {
     return view('admin.dashboard');
 });

@@ -5,19 +5,19 @@
         <li class="nav-item">
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
-        
+
     </ul>
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">
         <!-- Navbar Search -->
-        
+
         <li class="nav-item">
             <a class="nav-link" data-widget="fullscreen" href="#" role="button">
                 <i class="fas fa-expand-arrows-alt"></i>
             </a>
         </li>
-        
+
     </ul>
 </nav>
 <!-- /.navbar -->
@@ -45,17 +45,27 @@
         </div>
 
         <!-- SidebarSearch Form -->
-        
+
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
                 <li class="nav-item">
-                    <a href="{{ url ('admin/dashboard') }}" class="nav-link">
+                    <a href="{{ url('admin/dashboard') }}" class="nav-link active">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Dashboard
+                        </p>
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a href="{{ url('admin/admin/list') }}" class="nav-link">
+                        <i class="nav-icon fas fa-user"></i>
+                        <p>
+                            Admin
                         </p>
                     </a>
                 </li>
